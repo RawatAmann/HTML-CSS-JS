@@ -1,0 +1,39 @@
+	<!-- sum of array eleents numbers  -->
+
+<html>
+<head>
+<script>
+var n= parseInt(prompt("Enter size"));
+  	var a = new Array(n);
+	//var a=[1,2,3,4];
+	var sum = 0;
+
+        for (var i = 0; i < a.length; i++) 
+	{
+            a[i] = parseInt(prompt("Enter number " + (i + 1)));
+            sum += a[i];
+        }
+
+       document.write("The sum of the array elements is: " + sum);
+
+</script>
+</head>
+</html>
+
+
+	<!-- sum of string numbers only  
+
+<html>
+<head>
+    <script>
+        var s = prompt("Enter a number");
+        var sum = 0;
+
+        for (var i = 0; i < s.length; i++)
+	{
+            sum += parseInt(s.charAt(i));
+        }
+        document.write("<br>Sum of all the digits present in the string: " + sum);
+    </script>
+</head>
+</html> -->
